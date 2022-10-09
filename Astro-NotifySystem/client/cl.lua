@@ -11,7 +11,7 @@ function Notify(type, msg, duration)
 	end
 end
 
-RegisterNetEvent('astro-lib:Notify')
-AddEventHandler('astro-lib:Notify', function(type, msg, duration)
+RegisterNetEvent('Astro-NotifySystem:Notify')
+AddEventHandler('Astro-NotifySystem:Notify', function(type, msg, duration)
 	Notify(type, msg, duration)
 end)
