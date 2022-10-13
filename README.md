@@ -1,4 +1,4 @@
-# NotifySystem
+# NotifySystem and little "ac"
 Od dnia dzisiejszego astro development korzysta z tego handlera
 
 ## Jak uzywać?
