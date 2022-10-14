@@ -1,3 +1,12 @@
+ESX = nil
+
+Citizen.CreateThread(function()
+    while ESX == nil do
+        TriggerEvent('esx:getSharedObject', function(obj) ESX = obj end)
+        Citizen.Wait(0)
+    end
+end)
+
 function Notify(type, msg, duration)
 	if (duration == nil) then duration = 5000 end
 	if Config.NotifyType == "mythic_notify" then
