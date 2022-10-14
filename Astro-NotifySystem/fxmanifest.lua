@@ -11,7 +11,8 @@ author       'Astro-Development'
 
 --[[ Manifest ]]--
 shared_scripts {
-	'config.lua'
+	'config.lua',
+	'@ox_lib/init.lua'
 }
 
 client_scripts {
