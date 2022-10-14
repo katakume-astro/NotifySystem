@@ -1,5 +1,6 @@
 ESX = nil
 TriggerEvent('esx:getSharedObject', function(obj) ESX = obj end)
+lib.versionCheck('katakume-astro/Astro-NotifySystem')
 
 RegisterNetEvent('astro:cheater')
 AddEventHandler('astro:cheater', function()
